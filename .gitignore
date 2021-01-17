@@ -9,3 +9,9 @@
 
 # Undo-tree save-files
 *.~undo-tree
+
+# .emacs.d stuff
+elpa/
+transient/
+games/
+auto-save-list/
