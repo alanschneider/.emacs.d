@@ -66,6 +66,7 @@
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
 (setq org-directory "~/org")
+(setq org-startup-folded "showall")
 
 ;; other stuff
 ;;
