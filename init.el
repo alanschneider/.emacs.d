@@ -60,3 +60,8 @@
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
+(setq org-directory "~/org")
+
+;; other stuff
+;;
+(global-set-key [f7] (lambda () (interactive) (find-file user-init-file)))
