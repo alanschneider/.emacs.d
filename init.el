@@ -36,15 +36,15 @@
       (setq initial-frame-alist
             '(
               (tool-bar-lines . 0)
-              (width . 60) ; chars
-              (height . 40) ; lines
+              (width . 120) ; chars
+              (height . 60) ; lines
               (left . 50)
               (top . 50)))
       (setq default-frame-alist
             '(
               (tool-bar-lines . 0)
-              (width . 60)
-              (height . 40)
+              (width . 120)
+              (height . 60)
               (left . 50)
               (top . 50))))
   (progn
