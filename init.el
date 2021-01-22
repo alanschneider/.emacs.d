@@ -46,7 +46,12 @@
               (width . 120)
               (height . 60)
               (left . 50)
-              (top . 50))))
+              (top . 50)))
+      (setq frame-title-format
+      '(buffer-file-name "%b - %f"              ; File buffer
+        (dired-directory dired-directory        ; Dired buffer
+         (revert-buffer-function "%b"           ; Buffer Menu
+          ("%b - Dir: " default-directory)))))) ; Plain buffer
   (progn
     (setq initial-frame-alist '( (tool-bar-lines . 0)))
     (setq default-frame-alist '( (tool-bar-lines . 0)))))
