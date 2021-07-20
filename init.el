@@ -58,6 +58,9 @@
 
 (column-number-mode 1) ;; Show column position
 
+;; Use spaces for tab
+;;
+(setq-default indent-tabs-mode nil)
 
 ;; org-mode config
 ;;
