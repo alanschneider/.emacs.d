@@ -58,6 +58,10 @@
 
 (column-number-mode 1) ;; Show column position
 
+;; Set font size to 14pt
+;;
+(set-face-attribute 'default nil :height 140)
+
 ;; Use spaces for tab
 ;;
 (setq-default indent-tabs-mode nil)
