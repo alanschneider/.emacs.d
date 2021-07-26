@@ -66,6 +66,10 @@
 ;;
 (setq-default indent-tabs-mode nil)
 
+;; Shut the bell up
+;;
+(setq ring-bell-function 'ignore)
+
 ;; org-mode config
 ;;
 (require 'org)
