@@ -70,6 +70,10 @@
 ;;
 (setq ring-bell-function 'ignore)
 
+;; Overwrite selected text
+;;
+(delete-selection-mode t)
+
 ;; org-mode config
 ;;
 (require 'org)
